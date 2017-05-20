@@ -16,7 +16,6 @@ $candidatType = 'gamer'   ;
 $candidatType = 'creator'   ;
 }
 $req->execute(array(
-    'cursus' => $_POST['cursus'],
     'civility' => $_POST['civility'],
     'firstname' => $_POST['firstname'],
     'lastname' => $_POST['lastname'],

@@ -92,7 +92,7 @@
 
             <!---------------------------------------Début formulaire inscription Gamer--------------------------------->
 <form class="form-horizontal" method="POST" action="actionv2.php">
-
+    <!--
     <section id="esport" class="section section-padded gray-bg">
         <div class="container">
             <div class="row text-center title">
@@ -129,6 +129,7 @@
                 </div>
             </div>
 
+
             <div class="row"  style=" width: 80%; margin-left: 15%; margin-top: 5%;">
                 <h4><label for="inputRang" class="col-sm-offset-1 col-sm-10 " style="margin-bottom: 2%">Renseigner votre rang sur les trois dernières années</label></h4>
 
@@ -158,7 +159,7 @@
         </div>
         </div>
         <div class="cut cut-bottom"></div>
-    </section>
+    </section>-->
     <section id="general" class="section section-padded">
         <div class="container" style="color: black">
             <div class="row text-center title">
@@ -166,6 +167,7 @@
                 <h4 class="light muted">Cela nous permet de mieux vous identifier..</h4>
             </div>
             <div class="row">
+                <!--
                 <div class="form-group">
                     <div class="col-sm-offset-2">
                         <h4><label for="inputCursus" class="col-sm-3 control-label" name="cursus">Choix cursus :</label></h4>
@@ -186,6 +188,7 @@
                         </select>
                     </div>
                 </div>
+                -->
                 <div class="form-group">
                     <div class="col-sm-offset-2">
                         <h3><label for="inputCivility" class="col-sm-2 control-label" >Civilité</label></h3>
@@ -219,6 +222,7 @@
                         <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="mail" required>
                     </div>
                 </div>
+                <!--
                 <div class="form-group">
                     <div class="col-sm-offset-2">
                         <h3><label for="inputPhone" class="col-sm-2 control-label"  >Téléphone</label></h3>
@@ -293,8 +297,9 @@
                 </div>
             </div>
         </div>
-        <div class="cut cut-bottom"></div>
+        <div class="cut cut-bottom"></div>-->
     </section>
+    <!--
     <section id="esport" class="section section-padded gray-bg">
         <div class="container">
             <div class="row text-center title">
@@ -440,6 +445,7 @@
         </div>
 
     </section>
+    -->
     <section id="submit" class="section">
         <div class="row">
             <div class="col-sm-offset-4 col-sm-5">
