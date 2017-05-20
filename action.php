@@ -5,7 +5,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=it-les', 'root', '');
 }
 catch (Exception $e)
 {
-die('Erreur test: ' . $e->getMessage());
+die('Erreur: ' . $e->getMessage());
 }
 
 $req = $bdd->query('select * from candidat');

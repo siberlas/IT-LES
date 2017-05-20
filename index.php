@@ -126,16 +126,23 @@ include("connection.php");
 					</div>
                     <div class="row">
 					<div class="col-xs-12 col-md-12">
-                        <h4 class="heading small-heading no-margin regular"><span class="open-blink"></span><?php $nbCreator= $bdd->query('select COUNT(*) as creator from candidat where candidatType = "creator" ');
-$nbCreator = $nbCreator->fetch();
-echo 'Créateurs inscrit: <strong>'.($nbCreator['creator']);?></strong></h4>
+                        <h4 class="heading small-heading no-margin regular"><span class="open-blink"></span>
+                            <?php
+                            $nbCreator= $bdd->query('select COUNT(*) as creator from candidat where candidatType = "creator" ');
+                           if(isset($nbCreator)){
+                                $nbCreator = $nbCreator->fetch();
+                                echo 'Créateurs inscrit: <strong>'.($nbCreator['creator']);
+                            }
+
+                            ?>
+                            </strong></h4>
                     </div>
 					</div>
                     <div class="row">
 					<div class="col-xs-12 col-md-12">
-                        <h4 class="heading small-heading no-margin regular"><span class="open-blink"></span><?php $nbGamer= $bdd->query('select COUNT(*) as gamer from candidat where candidatType = "gamer" ');
-							$nbGamer = $nbGamer->fetch();
-							echo 'Gamers inscrit :  <strong>'.($nbGamer['gamer']).'</strong>'?></h4>
+                        <h4 class="heading small-heading no-margin regular"><span class="open-blink"></span><?php //$nbGamer= $bdd->query('select COUNT(*) as gamer from candidat where candidatType = "gamer" ');
+							//$nbGamer = $nbGamer->fetch();
+							//echo 'Gamers inscrit :  <strong>'.($nbGamer['gamer']).'</strong>'?></h4>
                     </div>
 					</div>
                     <div class="row" style="margin-top:10px;">
