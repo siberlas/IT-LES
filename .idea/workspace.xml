@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9824f5d0-71bf-40a4-ba34-11119962847e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action.php" afterPath="$PROJECT_DIR$/action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connection.php" afterPath="$PROJECT_DIR$/connection.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="612">
+              <caret line="144" column="26" lean-forward="true" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
               <folding>
                 <marker date="1495229841455" expanded="true" signature="7159:7230" ph="select COUNT... candidat" />
                 <marker date="1495229841455" expanded="true" signature="7598:7665" ph="select COUNT... candidat" />
@@ -42,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/action.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -296,12 +294,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493679071457</updated>
       <workItem from="1493679072859" duration="762000" />
-      <workItem from="1495231288028" duration="2323000" />
+      <workItem from="1495231288028" duration="3031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3085000" />
+    <option name="totallyTimeSpent" value="3793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -550,17 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <marker date="1495229841455" expanded="true" signature="7159:7230" ph="select COUNT... candidat" />
-            <marker date="1495229841455" expanded="true" signature="7598:7665" ph="select COUNT... candidat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -580,6 +567,17 @@
             <marker date="1495282595115" expanded="true" signature="1266:1447" ph="INSERT INTO bac... " />
             <marker date="1495282595115" expanded="true" signature="1792:1962" ph="INSERT INTO postbac... " />
             <marker date="1495282595115" expanded="true" signature="2611:2719" ph="INSERT INTO gamerinfos... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="144" column="26" lean-forward="true" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+          <folding>
+            <marker date="1495229841455" expanded="true" signature="7159:7230" ph="select COUNT... candidat" />
+            <marker date="1495229841455" expanded="true" signature="7598:7665" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
