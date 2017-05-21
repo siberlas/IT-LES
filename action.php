@@ -9,29 +9,20 @@ die('Erreur: ' . $e->getMessage());
 }
 
 $req = $bdd->query('select * from candidat');
-$req = $bdd->prepare('INSERT INTO candidat(cursus, civility,firstname,lastname ,mail, phone,dob,pob,nationality,lastdegree,curentlevel,leschoice,candidatType)VALUES(:cursus, :civility,:firstname,:lastname ,:mail, :phone,:dob,:pob,:nationality,:lastDegree,:curentLevel,:lesChoice,:candidatType)');
+$req = $bdd->prepare('INSERT INTO candidat(civility,firstname,lastname ,mail,candidatType)VALUES(:civility,:firstname,:lastname ,:mail,:candidatType)');
 if(isset($_POST['formGamer'])){
 $candidatType = 'gamer'   ;
 }else{
 $candidatType = 'creator'   ;
 }
 $req->execute(array(
-    'civility' => $_POST['civility'],
     'firstname' => $_POST['firstname'],
-    'lastname' => $_POST['lastname'],
-    'mail' => $_POST['mail'],
-    'phone' =>  $_POST['phone'],
-    'dob' =>  $_POST['dob'],
-    'pob' =>  $_POST['pob'],
-    'nationality' =>  $_POST['nationality'],
-    'lastDegree' =>  $_POST['lastDegree'],
-    'curentLevel' =>  $_POST['curentLevel'],
-    'lesChoice' => 'fdsfesfesf',
-    'candidatType' => $candidatType
+    'lastname'    => $_POST['lastname'],
+    'candidaType' =>$candidatType
 ));
 $id_candidat = $bdd->query("SELECT  max(id) as id from  candidat");
 $id_candidat = $id_candidat->fetch();
-$req = $bdd->prepare('INSERT INTO bac(id_candidat, stream,distinction,bacschoolname,city ,	country, obtainingyear)VALUES(:id_candidat, :stream,:distinction,:bacSchoolName,:city ,:country, :obtainingYear)');
+/*$req = $bdd->prepare('INSERT INTO bac(id_candidat, stream,distinction,bacschoolname,city ,	country, obtainingyear)VALUES(:id_candidat, :stream,:distinction,:bacSchoolName,:city ,:country, :obtainingYear)');
 $req->execute(array(
     'id_candidat' =>  $id_candidat['id'],
     'stream' =>  $_POST['stream'],
@@ -54,9 +45,9 @@ for($i=0;$i<4;$i++){
             'obtainingYear' =>  $_POST['postYear'.$i]
         ));
     }
-}
-if(isset($_POST['formGamer'])){
-    $req = $bdd->prepare('INSERT INTO gamerinfos(id_candidat, rangSoloQ,position,rang)VALUES(:id_candidat, :rangSoloQ,:position,:rang)');
+}*/
+/*if(isset($_POST['formGamer'])){
+    $req = $bdd->prepare('INSERT INTO gamerinfos(id_candidat)VALUES(:id_candidat, :rangSoloQ,:position,:rang)');
     $listRangAnnee=[];
     for($i=1;$i<4;$i++){
         if(!empty( $_POST['gamerang'.$i])){
@@ -67,14 +58,11 @@ if(isset($_POST['formGamer'])){
     $listRangAnnee = serialize($listRangAnnee);
     $req->execute(array(
         'id_candidat' =>  $id_candidat['id'],
-        'rangSoloQ' =>  $_POST['rangSoloQ'],
-        'position' =>  $_POST['position'],
-        'rang' => $listRangAnnee,
     ));
 	$InsGamer = 'InsGamer.php?validate=1';
     header('Location: http://www.it-les.com/InsGamer.php?validate=1');
     exit;
-}
+}*/
 $host = $_SERVER['HTTP_HOST'];
 $uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 $InsCreator = 'InsCreateur.php?validate=1';
