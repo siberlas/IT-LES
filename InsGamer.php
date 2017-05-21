@@ -222,7 +222,7 @@
                         <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="mail" required>
                     </div>
                 </div>
-                <!--
+
                 <div class="form-group">
                     <div class="col-sm-offset-2">
                         <h3><label for="inputPhone" class="col-sm-2 control-label"  >Téléphone</label></h3>
@@ -231,73 +231,74 @@
                         <input type="tel" class="form-control" id="inputPhone" placeholder="Numéro" name="phone" required>
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2">
-                        <h3><label for="inputDOB" class="col-sm-2 control-label">Date de Naissance</label></h3>
-                    </div>
-                    <div class="col-sm-6">
-                        <input type="date" class="form-control" id="inputDOB" placeholder="Date" name="dob" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2">
-                        <h3><label for="inputPOB" class="col-sm-2 control-label">Lieux de Naissance</label></h3>
-                    </div>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="inputPOB" placeholder="Ville" name="pob" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2">
-                        <h3><label for="inputNationality" class="col-sm-2 control-label">Nationalité</label></h3>
-                    </div>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="inputNationality" placeholder="Pays" name="nationality" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2">
-                        <h3><label for="inputLastDegree" class="col-sm-2 control-label">Dernier diplôme</label></h3>
-                    </div>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="inputLastDegree" placeholder="BAC - BAC +2 etc..." name="lastDegree" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <h4>Votre niveau d’études actuel :</h4>
-                            </div>
-                            <div class="col-sm-offset-5 col-sm-10">
-                                <div class="col-sm-6" id="inputCurentLevel">
-                                    <input type="radio" name="curentLevel" value="2"  checked> Vous êtes en Bac + 2<br>
-                                    <input type="radio" name="curentLevel" value="3" > Vous êtes en Bac + 3<br>
-                                    <input type="radio" name="curentLevel" value="4" > Vous êtes en Bac + 4<br>
-                                    <input type="radio" name="curentLevel" value="5" > Autres cas <input type="text" size="40" placeholder=" (Précisez) "><br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!--
+              <div class="form-group">
+                  <div class="col-sm-offset-2">
+                      <h3><label for="inputDOB" class="col-sm-2 control-label">Date de Naissance</label></h3>
+                  </div>
+                  <div class="col-sm-6">
+                      <input type="date" class="form-control" id="inputDOB" placeholder="Date" name="dob" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-offset-2">
+                      <h3><label for="inputPOB" class="col-sm-2 control-label">Lieux de Naissance</label></h3>
+                  </div>
+                  <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputPOB" placeholder="Ville" name="pob" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-offset-2">
+                      <h3><label for="inputNationality" class="col-sm-2 control-label">Nationalité</label></h3>
+                  </div>
+                  <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputNationality" placeholder="Pays" name="nationality" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-offset-2">
+                      <h3><label for="inputLastDegree" class="col-sm-2 control-label">Dernier diplôme</label></h3>
+                  </div>
+                  <div class="col-sm-6">
+                      <input type="text" class="form-control" id="inputLastDegree" placeholder="BAC - BAC +2 etc..." name="lastDegree" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-12">
+                      <div class="row">
+                          <div class="col-sm-offset-2 col-sm-10">
+                              <h4>Votre niveau d’études actuel :</h4>
+                          </div>
+                          <div class="col-sm-offset-5 col-sm-10">
+                              <div class="col-sm-6" id="inputCurentLevel">
+                                  <input type="radio" name="curentLevel" value="2"  checked> Vous êtes en Bac + 2<br>
+                                  <input type="radio" name="curentLevel" value="3" > Vous êtes en Bac + 3<br>
+                                  <input type="radio" name="curentLevel" value="4" > Vous êtes en Bac + 4<br>
+                                  <input type="radio" name="curentLevel" value="5" > Autres cas <input type="text" size="40" placeholder=" (Précisez) "><br>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-                <div class="form-group">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-offset-2 col-sm-8">
-                                <h4>Pourquoi avez choisi IT-LeS ?</h4>
-                            </div>
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <textarea required  class="form-control" rows="5" cols="100" name="lesChoice" form="lesChoice" id="lesChoice" placeholder="500 mots minimum..."></textarea>
-                            </div>
-                        </div>
-                    </div>
+              <div class="form-group">
+                  <div class="col-sm-12">
+                      <div class="row">
+                          <div class="col-sm-offset-2 col-sm-8">
+                              <h4>Pourquoi avez choisi IT-LeS ?</h4>
+                          </div>
+                          <div class="col-sm-offset-2 col-sm-10">
+                              <textarea required  class="form-control" rows="5" cols="100" name="lesChoice" form="lesChoice" id="lesChoice" placeholder="500 mots minimum..."></textarea>
+                          </div>
+                      </div>
+                  </div>
 
 
-                </div>
-            </div>
-        </div>
-        <div class="cut cut-bottom"></div>-->
+              </div>
+          </div>
+      </div>
+      <div class="cut cut-bottom"></div>-->
     </section>
     <!--
     <section id="esport" class="section section-padded gray-bg">
