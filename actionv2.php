@@ -1,7 +1,7 @@
 <?php
 try
 {
-$bdd = new PDO('mysql:host=db680011459.db.1and1.com;dbname=db680011459;charset=utf8', 'dbo680011459', 'nx78azmtM%');
+    $bdd = new PDO('mysql:host=localhost;dbname=it-les', 'root', '');
 }
 catch (Exception $e)
 {
@@ -9,29 +9,26 @@ die('Erreur : ' . $e->getMessage());
 }
 
 $req = $bdd->query('select * from candidat');
-$req = $bdd->prepare('INSERT INTO candidat(cursus, civility,firstname,lastname ,mail, phone,dob,pob,nationality,lastdegree,curentlevel,leschoice,candidatType)VALUES(:cursus, :civility,:firstname,:lastname ,:mail, :phone,:dob,:pob,:nationality,:lastDegree,:curentLevel,:lesChoice,:candidatType)');
-if(isset($_POST['formGamer'])){
-$candidatType = 'gamer'   ;
-}else{
-$candidatType = 'creator'   ;
-}
+$req = $bdd->prepare('INSERT INTO candidat(civility,firstname,lastname ,mail, phone, candidatType)VALUES(:civility,:firstname,:lastname ,:mail, :phone,:candidatType)');
+
+    if(isset($_POST['formGamer']))
+    {
+        $candidatType = 'gamer'   ;
+    }
+    else
+    {
+        $candidatType = 'creator'   ;
+    }
 
 $req->execute(array(
-    'cursus' => $_POST['cursus'],
     'civility' => $_POST['civility'],
     'firstname' => $_POST['firstname'],
     'lastname' => $_POST['lastname'],
     'mail' => $_POST['mail'],
     'phone' =>  $_POST['phone'],
-    'dob' =>  $_POST['dob'],
-    'pob' =>  $_POST['pob'],
-    'nationality' =>  $_POST['nationality'],
-    'lastDegree' =>  $_POST['lastDegree'],
-    'curentLevel' =>  $_POST['curentLevel'],
-    'lesChoice' => 'fdsfesfesf',
     'candidatType' => $candidatType
 ));
-$id_candidat = $bdd->query("SELECT  max(id) as id from  candidat");
+/*$id_candidat = $bdd->query("SELECT  max(id) as id from  candidat");
 $id_candidat = $id_candidat->fetch();
 $req = $bdd->prepare('INSERT INTO bac(id_candidat, stream,distinction,bacschoolname,city ,	country, obtainingyear)VALUES(:id_candidat, :stream,:distinction,:bacSchoolName,:city ,:country, :obtainingYear)');
 $req->execute(array(
@@ -76,7 +73,7 @@ if(isset($_POST['formGamer'])){
 	$InsGamer = 'InsGamer.php?validate=1';
     header('Location: http://www.it-les.com/InsGamer.php?validate=1');
     exit;
-}
+}*/
 $host = $_SERVER['HTTP_HOST'];
 $uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 $InsCreator = 'InsCreateur.php?validate=1';
