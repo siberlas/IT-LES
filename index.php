@@ -43,22 +43,23 @@ include("connection.php");
 <div class="preloader">
     <img src="img/loader.gif" alt="Preloader image">
 </div>
-<nav class="navbar">
-    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="img/logo-active.png" alt="ITLES"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right main-nav">
+        <div class="collapse navbar-collapse" id="navbar-collapse-1" style="">
+            <ul class="nav navbar-nav">
                 <li><a href="#intro">BACK TOP</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modal1">Sign in</a></li>
                 <li class="dropdown"><a data-target="#" href="#etudes" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> Etudes <span class="caret"></span> </a>
                     <ul class="dropdown-menu" aria-labelledby="drop1">
                         <li><a href="projetPedagogique.html">Projet Pédagogique</a></li>
@@ -317,6 +318,47 @@ include("connection.php");
         </div>
     </div>
 </section>
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content modal-popup">
+            <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+            <h3 class="white">Inscription</h3>
+            <form class="form-horizontal popup-form" method="POST" action="actionv2.php" name="InsCreateurForm" id="InsCreateurForm">
+                <div class="checkbox-holder text-left">
+                    <div class="checkbox">
+                        <input type="checkbox" value="M" id="squaredM" name="civility" />
+                        <label for="squaredM"><span><strong>M.</strong></span></label>
+                    </div>
+                </div>
+                <div class="checkbox-holder text-left">
+                    <div class="checkbox">
+                        <input type="checkbox" value="Mme" id="squaredMme" name="civility" />
+                        <label for="squaredMme"><span><strong>Mme.</strong></span></label>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Type Candidature
+                    </button>
+                    <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="dLabel">
+                        <li class="animated lightSpeedIn"><a href="#">Créateur</a></li>
+                        <li class="animated lightSpeedIn"><a href="#">Gamer</a></li>
+                    </ul>
+                </div>
+                <input type="email" class="form-control form-white" placeholder="Email Address" name="mail" required>
+                <input type="tel" class="form-control form-white" placeholder="Numéro" name="phone" required>
+
+                <div class="checkbox-holder text-left">
+                    <div class="checkbox">
+                        <input type="checkbox" value="None" id="squaredOne" name="check" required/>
+                        <label for="squaredOne"><span>J'accepte <strong>de recevoir un email de confirmation</strong></span></label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 <footer>
     <div class="container">
         <div class="row">
