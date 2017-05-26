@@ -103,6 +103,13 @@ include("connection.php");
                         <span class="typed-cursor">|</span>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-md-offset-3 col-md-6 text-center">
+                        <?php
+                        if (isset($_GET['validate'])) echo('<div class="alert alert-success alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times</span></button><strong>Well done!</strong> </br></br> Vous etes maintenant pré-inscrit. Nous reviendrons vers vous après études des informations transmises. A bientot !</div>');
+                        ?>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -305,28 +312,11 @@ include("connection.php");
             <h3 class="white">Inscription</h3>
             <form class="form-horizontal popup-form" method="POST" action="actionv2.php" name="InsCreateurForm"
                   id="InsCreateurForm">
-                <div class="checkbox-holder text-left">
-                    <div class="checkbox">
-                        <input type="checkbox" value="M" id="squaredM" name="civility"/>
-                        <label for="squaredM"><span><strong>M.</strong></span></label>
-                    </div>
-                </div>
-                <div class="checkbox-holder text-left">
-                    <div class="checkbox">
-                        <input type="checkbox" value="Mme" id="squaredMme" name="civility"/>
-                        <label for="squaredMme"><span><strong>Mme.</strong></span></label>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                        Type Candidature
-                    </button>
-                    <ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="dLabel">
-                        <li class="animated lightSpeedIn"><a href="#">Créateur</a></li>
-                        <li class="animated lightSpeedIn"><a href="#">Gamer</a></li>
-                    </ul>
-                </div>
+                    <select name="typeCandidat" class="form-control form-white dropdown animated fadeIn" role="menu" aria-labelledby="dLabel" required>
+                        <option class="orange" disabled selected><a href="#">Choisir son camp..</a></option>
+                        <option class="orange" value="creator"><a href="#">Créateur</a></option>
+                        <option class="orange" value="gamer"><a href="#">Gamer</a></option>
+                    </select>
                 <input type="email" class="form-control form-white" placeholder="Email Address" name="mail" required>
                 <input type="tel" class="form-control form-white" placeholder="Numéro" name="phone" required>
 
@@ -341,6 +331,8 @@ include("connection.php");
         </div>
     </div>
 </div>
+
+
 <footer>
     <div class="container">
         <div class="row">

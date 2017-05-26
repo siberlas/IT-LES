@@ -1,17 +1,17 @@
 <?php
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=it-les', 'root', '');
+   //$bdd = new PDO('mysql:host=localhost;dbname=it-les', 'root', '');
+    $bdd = new PDO('mysql:host=itlesfrazuadm.mysql.db;dbname=itlesfrazuadm', 'itlesfrazuadm', 'nx78azmtM');
 }
 catch (Exception $e)
 {
 die('Erreur : ' . $e->getMessage());
 }
 
-$req = $bdd->query('select * from candidat');
-$req = $bdd->prepare('INSERT INTO candidat(civility,firstname,lastname ,mail, phone, candidatType)VALUES(:civility,:firstname,:lastname ,:mail, :phone,:candidatType)');
+$req = $bdd->prepare('INSERT INTO candidat(civility,mail, phone, candidatType)VALUES(:civility,:mail, :phone,:candidatType)');
 
-    if(isset($_POST['formGamer']))
+   /* if(isset())
     {
         $candidatType = 'gamer'   ;
     }
@@ -19,15 +19,15 @@ $req = $bdd->prepare('INSERT INTO candidat(civility,firstname,lastname ,mail, ph
     {
         $candidatType = 'creator'   ;
     }
-
+*/
 $req->execute(array(
-    'civility' => $_POST['civility'],
-    'firstname' => $_POST['firstname'],
-    'lastname' => $_POST['lastname'],
+    'civility' => "?",
     'mail' => $_POST['mail'],
     'phone' =>  $_POST['phone'],
-    'candidatType' => $candidatType
+    'candidatType' => $_POST['typeCandidat']
 ));
+
+
 /*$id_candidat = $bdd->query("SELECT  max(id) as id from  candidat");
 $id_candidat = $id_candidat->fetch();
 $req = $bdd->prepare('INSERT INTO bac(id_candidat, stream,distinction,bacschoolname,city ,	country, obtainingyear)VALUES(:id_candidat, :stream,:distinction,:bacSchoolName,:city ,:country, :obtainingYear)');
@@ -76,7 +76,7 @@ if(isset($_POST['formGamer'])){
 }*/
 $host = $_SERVER['HTTP_HOST'];
 $uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-$InsCreator = 'InsCreateur.php?validate=1';
+$InsCreator = 'index.php?validate=1';
 
 
 header("Location: http://$host$uri/$InsCreator");
