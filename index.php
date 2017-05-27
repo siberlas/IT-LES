@@ -124,15 +124,15 @@ include("connection.php");
         <div class="row">
             <div class="col-xs-12 col-md-8 text-center">
                 <h4>
-                    <strong>Les formations classique que l'on subit depuis toujours ne fonctionnent pas</strong>, elles
-                    ne permettent pas d'acquérir de réels compétences. Rien ne permet aux jeunes d'être motivés à
-                    apprendre, les cours, les examens.. <strong>on en a marre !</strong></br></br>
+                    <strong>Les formations classiques que l'on subit depuis toujours ne fonctionnent pas</strong>, elles
+                    ne permettent pas d'acquérir de réelles compétences. Rien ne permet aux jeunes d'être motivés à
+                    apprendre, les cours, les examens.. <strong>"On en a marre !"</strong></br></br>
                     Tout ça c'est fini, avec IT-LeS venez vous former au sein de <strong>l'Initial IT. Studio qui
-                        reprend les concepts des plus grande Start-up.</strong></br></br>
+                        reprend les concepts des plus grandes Start-up.</strong></br></br>
                     L'objectif du Studio, faire de <strong>vos idées une réalité !</strong> Créer les nouveaux jeux
-                    vidéo mobile du Play Store à la mode, ce qui permettra de <strong>valider les compétences nécessaire
+                    vidéo mobile du Play Store à la mode, ce qui permettra de <strong>valider les compétences nécessaires
                         à l'obtention de vos diplômes.</strong> </br></br>
-                    N'hesitez pas à remplir votre candidature en ligne : rapide, gratuit et ca pourrait changer votre
+                    N'hésitez pas à remplir votre candidature en ligne : rapide, gratuit et ca pourrait changer votre
                     vie!
                 </h4>
             </div>
@@ -143,14 +143,14 @@ include("connection.php");
                     $nbCreator = $bdd->query('select COUNT(*) as creator from candidat where candidatType = "creator" ');
                     if (isset($nbCreator)) {
                         $nbCreator = $nbCreator->fetch();
-                        echo 'Créateurs inscrit: <strong>' . ($nbCreator['creator']);
+                        echo 'Créateurs inscrits: <strong>' . ($nbCreator['creator']);
                     }
                     ?>
                     </strong></h4>
                 <h4 class="heading small-heading no-margin regular"><span
                             class="open-blink"></span><?php $nbGamer = $bdd->query('select COUNT(*) as gamer from candidat where candidatType = "gamer" ');
                     $nbGamer = $nbGamer->fetch();
-                    echo 'Gamers inscrit :  <strong>' . ($nbGamer['gamer']) . '</strong>' ?></h4>
+                    echo 'Gamers inscrits :  <strong>' . ($nbGamer['gamer']) . '</strong>' ?></h4>
                 <a data-toggle="modal" data-target="#modal1" class="btn btn-blue">Inscription</a>
             </div>
         </div>
