@@ -1,5 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 
+.mt-10{
+     margin-top: 10px;
+ }
+.metier{
+
+    text-align: center;
+    background-color: #E3E3E3;
+    margin-bottom: 1%;
+
+ }
+
+
+
+.titre{
+    border: 1px solid black;
+    width: 18%;
+
+}
 body {
     font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
     font-size: 14px;
