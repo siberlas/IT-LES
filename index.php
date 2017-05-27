@@ -60,7 +60,7 @@ include("connection.php");
         <div class="collapse navbar-collapse" id="navbar-collapse-1" style="">
             <ul class="nav navbar-nav">
 
-                <li class="text-center"><a href="#" data-toggle="modal" data-target="#modal1">Inscription</a></li>
+                <li class="text-center"><a href="index.php" class="orange">Accueil</a></li>
                 <li class="dropdown text-center"><a data-target="#" href="#etudes" class="dropdown-toggle" id="drop1"
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="true">
@@ -83,6 +83,7 @@ include("connection.php");
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li class="text-center"><a href="#" class="orange" data-toggle="modal" data-target="#modal1">Inscription</a></li>
                 <li class="text-center"><a href="#intro" style="font-size: xx-large">↑</a></li>
             </ul>
         </div>
@@ -106,7 +107,7 @@ include("connection.php");
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-md-offset-3 col-md-6 text-center">
                         <?php
-                        if (isset($_GET['validate'])) echo('<div class="alert alert-success alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times</span></button><strong>Well done!</strong> </br></br> Vous etes maintenant pré-inscrit. Nous reviendrons vers vous après études des informations transmises. A bientot !</div>');
+                        if (isset($_GET['validate'])) echo('<div class="alert alert-warning alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times</span></button><strong>Well done!</strong> </br></br> Vous etes maintenant pré-inscrit. Nous reviendrons vers vous après études des informations transmises. A bientot !</div>');
                         ?>
                     </div>
                 </div>
@@ -312,7 +313,7 @@ include("connection.php");
             <h3 class="white">Inscription</h3>
             <form class="form-horizontal popup-form" method="POST" action="actionv2.php" name="InsCreateurForm"
                   id="InsCreateurForm">
-                    <select name="typeCandidat" class="form-control form-white dropdown animated fadeIn" role="menu" aria-labelledby="dLabel" required>
+                    <select name="typeCandidat" class="form-control form-white dropdown animated fadeIn" role="menu" aria-labelledby="dLabel">
                         <option class="orange" disabled selected><a href="#">Choisir son camp..</a></option>
                         <option class="orange" value="creator"><a href="#">Créateur</a></option>
                         <option class="orange" value="gamer"><a href="#">Gamer</a></option>

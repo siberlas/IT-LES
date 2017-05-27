@@ -186,7 +186,7 @@ a {
 }
 
 .orange {
-    color: orangered;
+    color: orangered !important;
 }
 
 .icon-bar {
