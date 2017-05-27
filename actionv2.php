@@ -1,8 +1,8 @@
 <?php
 try
 {
-   //$bdd = new PDO('mysql:host=localhost;dbname=it-les', 'root', '');
-    $bdd = new PDO('mysql:host=itlesfrazuadm.mysql.db;dbname=itlesfrazuadm', 'itlesfrazuadm', 'nx78azmtM');
+   $bdd = new PDO('mysql:host=localhost;dbname=it-les', 'root', '');
+  // $bdd = new PDO('mysql:host=itlesfrazuadm.mysql.db;dbname=itlesfrazuadm', 'itlesfrazuadm', 'nx78azmtM');
 }
 catch (Exception $e)
 {
@@ -19,7 +19,13 @@ $req = $bdd->prepare('INSERT INTO candidat(civility,mail, phone, candidatType)VA
     {
         $candidatType = 'creator'   ;
     }
+
 */
+
+   if(!isset($_POST['typeCandidat'])){
+       $_POST['typeCandidat'] = "creator";
+   }
+
 $req->execute(array(
     'civility' => "?",
     'mail' => $_POST['mail'],
