@@ -172,8 +172,12 @@ header .typed-cursor {
     animation-iteration-count: infinite;
 }
 
+.section-bg{
+    background: url("../img/section.png");
+}
+
 .inscrit {
-    margin-top: 8%;
+    margin-top: 2%;
     background-color: #f5f5f5;
     padding-bottom: 10px;
 }
@@ -212,12 +216,34 @@ a {
     color: white;
 }
 
+.badge{
+    margin-left:5px;
+    color : orange;
+    background-color: white;
+}
+
 .btn.btn-blue {
     background: #e86505;
 }
 
 .btn.btn-blue:hover {
     background: #ff974a;
+}
+
+.btn.btn-pr {
+    font-size: 13px;
+    padding: 10px 10px;
+    background: grey;
+    border-width: 1px ;
+    border-color: darkgray;
+}
+
+.btn.btn-qua {
+    font-size: 13px;
+    padding: 10px 10px;
+    background: darkorange;
+    border-width: 1px ;
+    border-color: orange;
 }
 
 .btn.btn-blue-fill {

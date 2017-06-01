@@ -61,29 +61,21 @@ include("connection.php");
             <ul class="nav navbar-nav">
 
                 <li class="text-center"><a href="index.php" class="orange">Accueil</a></li>
+                <li class="text-center"><a href="index.php#section">Team</a></li>
                 <li class="dropdown text-center"><a data-target="#" href="#etudes" class="dropdown-toggle" id="drop1"
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="true">
-                        Etudes <span class="caret"></span> </a>
+                        Plan pédagogique<span class="caret"></span> </a>
                     <ul class="dropdown-menu" aria-labelledby="drop1">
-                        <li><a href="projetPedagogique.html">Projet Pédagogique</a></li>
-                        <li><a href="cursus.html">Cursus & Admission</a></li>
-                        <li><a href="debouche.html">Débouchés</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown text-center"><a data-target="#" href="#esport" class="dropdown-toggle" id="drop2"
-                                                    data-toggle="dropdown" role="button" aria-haspopup="true"
-                                                    aria-expanded="true">
-                        eSport <span class="caret"></span> </a>
-                    <ul class="dropdown-menu" aria-labelledby="drop2">
-                        <li><a href="training.html">Training Session</a></li>
-                        <li><a href="#">Tournois</a></li>
-                        <li><a href="cursus.html">Cursus & Admission</a></li>
+                        <li><a href="compo.html">Composition équipe projet</a></li>
+                        <li><a href="cursus.html">Diplômes</a></li>
+                        <li><a href="debouche.html">Projets</a></li>
                     </ul>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="text-center"><a href="#" class="orange" data-toggle="modal" data-target="#modal1">Inscription</a></li>
+                <li class="text-center"><a href="#" class="orange" data-toggle="modal"
+                                           data-target="#modal1">Inscription</a></li>
                 <li class="text-center"><a href="#intro" style="font-size: xx-large">↑</a></li>
             </ul>
         </div>
@@ -99,8 +91,8 @@ include("connection.php");
                     <div class="col-xs-12 col-md-12 text-center">
                         <h2 class="light white"><b>I</b>nformation <b>T</b>echnology <b>- L</b>earning & <b>ES</b>port
                         </h2>
-                        <h3 class="light white">Laissez vous tenter par..</h3>
-                        <h1 class="white typed">Une expérience hors du commun..</h1>
+                        <h3 class="light white"></h3>
+                        <h1 class="white typed">Une vision claire de votre avenir</h1>
                         <span class="typed-cursor">|</span>
                     </div>
                 </div>
@@ -119,63 +111,129 @@ include("connection.php");
     <div class="cut cut-top"></div>
     <div class="container">
         <div class="row text-center title">
-            <h2>IT-LeS, bien plus qu'une simple école !</h2></br></br>
+            <h2>IT-LeS : plus qu'une simple école</h2></br></br>
         </div>
         <div class="row">
-            <div class="col-xs-12 col-md-8 text-center">
+            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-center accroche">
                 <h4>
-                    <strong>Les formations classiques que l'on subit depuis toujours ne fonctionnent pas</strong>, elles
-                    ne permettent pas d'acquérir de réelles compétences. Rien ne permet aux jeunes d'être motivés à
-                    apprendre, les cours, les examens.. <strong>"On en a marre !"</strong></br></br>
-                    Tout ça c'est fini, avec IT-LeS venez vous former au sein de <strong>l'Initial IT. Studio qui
-                        reprend les concepts des plus grandes Start-up.</strong></br></br>
-                    L'objectif du Studio, faire de <strong>vos idées une réalité !</strong> Créer les nouveaux jeux
-                    vidéo mobile du Play Store à la mode, ce qui permettra de <strong>valider les compétences nécessaires
-                        à l'obtention de vos diplômes.</strong> </br></br>
-                    N'hésitez pas à remplir votre candidature en ligne : rapide, gratuit et ca pourrait changer votre
-                    vie!
+                    <strong>ITLES</strong> vous garantit un environnement de travail qui reproduit celui présent dans
+                    <strong>les plus grandes entreprises.</strong><br><br>
+                    Nous mettons en place une équipe qui évolue dans un but commun : <strong>le developpement des
+                        compétences
+                        personnels.</strong><br>
+                    Tout simplement nous utilisons <strong>les forces des uns pour palier aux faiblesses des
+                        autres.</strong><br><br>
                 </h4>
             </div>
-            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 text-center inscrit">
-                <h4><strong>Inscription en cours..</strong></h4>
+            <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 text-center accroche2">
                 <h4>
+                    Ensemble, nous participons aux developpements de <strong>projets réels</strong> permettant
+                    d'enrichir
+                    vos
+                    connaissances théoriques et votre expérience professionel.<br><br>
+
+                    <!-- L'implication au niveau des projets <strong>générent des gains</strong> répartis à part égale.<br>-->
+                    Notre devise : <strong>Q</strong>ualité, <strong>M</strong>otivation et
+                    <strong>C</strong>arrière.<br><br><br>
+                </h4>
+                <h3><strong>With us, everyone is someone.</strong></h3>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4 text-center inscrit">
+                <h4><strong>Inscription en cours..</strong></h4>
+                <h4 class="heading small-heading no-margin regular">
                     <?php
                     $nbCreator = $bdd->query('select COUNT(*) as creator from candidat where candidatType = "creator" ');
                     if (isset($nbCreator)) {
                         $nbCreator = $nbCreator->fetch();
-                        echo 'Créateurs inscrits: <strong>' . ($nbCreator['creator']);
+                        echo 'Full Time : <strong>' . ($nbCreator['creator']);
                     }
                     ?>
                     </strong></h4>
                 <h4 class="heading small-heading no-margin regular"><span
                             class="open-blink"></span><?php $nbGamer = $bdd->query('select COUNT(*) as gamer from candidat where candidatType = "gamer" ');
                     $nbGamer = $nbGamer->fetch();
-                    echo 'Gamers inscrits :  <strong>' . ($nbGamer['gamer']) . '</strong>' ?></h4>
-                <a data-toggle="modal" data-target="#modal1" class="btn btn-blue">Inscription</a>
+                    echo 'eSport :  <strong>' . ($nbGamer['gamer']) . '</strong>' ?></h4>
+                <a data-toggle="modal" data-target="#modal1" class="btn btn-blue"
+                   style="margin-top: 10px;">Inscription</a>
             </div>
         </div>
     </div>
-    <div class="cut cut-bottom"></div>
+
+</section>
+<section id="section" class="section-padded section-bg">
+    <div class="row text-center title ">
+        <div class="col-xs-12 col-md-offset-3 col-md-6">
+            <h2 class="white">Caractéristiques des Equipes</h2>
+        </div>
+    </div>
+    <div class="row text-center title ">
+        <div class="col-xs-12 col-md-6">
+
+        </div>
+        <div class="col-xs-12 col-md-6">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-2 text-center">
+            <ul class="list-group">
+                <h3 class="white">Equipe Full Time</h3>
+                <li class="list-group-item">20 personnes</li>
+                <li class="list-group-item">100% projet</li>
+                <li class="list-group-item">Cours individuel</li>
+                <li class="list-group-item">Partage de connaissance</li>
+                <li class="list-group-item">Profits identique sur projet</li>
+            </ul>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-2 text-center">
+            <ul class="list-group">
+                <h3 class="white">Equipe eSport</h3>
+                <li class="list-group-item">5 personnes</li>
+                <li class="list-group-item">League of Legend compétitif</li>
+                <li class="list-group-item">80% eSport</li>
+                <li class="list-group-item">20% projet</li>
+                <li class="list-group-item">Profits eSport & projet</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row text-center title">
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4 text-center">
+            <h3 class="white">Caractéristiques partagées</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4 text-center">
+            <ul class="list-group">
+                <li class="list-group-item">Même projets</li>
+                <li class="list-group-item">Même diplômes</li>
+                <li class="list-group-item">Cohésion d'équipe forte</li>
+                <li class="list-group-item">Accès locaux 24/24, 7/7</li>
+                <li class="list-group-item">Même objectifs</li>
+            </ul>
+        </div>
+    </div>
 </section>
 <section id="etudes" class="section section-padded gray-bg">
 
     <div class="container">
         <div class="row text-center title">
-            <h2>Devenir un Créateur IT-LeS</h2>
-            <h4 class="light muted">Les Créateurs forment le cœur de l’entreprise, ils rejoindront notre structure pour
-                entreprendre, se former et surtout créer les nouvelles applications de jeu mobiles à succès.</h4>
+            <h2>Plan pédagogique</h2>
+            <h4 class="light muted">Explorez les sections pour trouver toutes les informations sur notre plan
+                pédagogique.</h4>
         </div>
         <div class="row services">
             <div class="col-xs-12 col-md-4">
-                <a href="projetPedagogique.html">
                     <div class="service">
-                        <a href="projetPedagogique.html">
+                        <a href="compo.html">
                             <div class="icon-holder-esport">
-                                <img src="img/icons/heart-blue.png" alt="" class="icon">
+                                <img src="img/icons/icon-team.png" alt="" class="icon">
                             </div>
-                            <h4 class="heading">Projet Pédagogique</h4>
-                            <p class="description">Découvrez un nouveau progamme pédagogique complétement basé sur la
-                                passion du jeu et les relations humaines</p>
+                            <h4 class="heading">Composition équipe projet</h4>
+                            <p class="description">Découvrez l'organisation de l'équipe projet avec le détail des
+                                différents postes et leurs diplômes correspondant</p>
                         </a>
                     </div>
             </div>
@@ -184,11 +242,11 @@ include("connection.php");
                 <div class="service">
                     <a href="cursus.html">
                         <div class="icon-holder-esport">
-                            <img src="img/icons/guru-blue.png" alt="" class="icon">
+                            <img src="img/icons/cup.png" alt="" class="icon">
                         </div>
-                        <h4 class="heading">Cursus & Admission</h4>
-                        <p class="description">Retrouver les Cursus en informatique proposés et un processus d'Admission
-                            sur mesure.</p>
+                        <h4 class="heading">Les Diplômes</h4>
+                        <p class="description">Retrouver le détail, les débouchés et les pré-requis de tous nos
+                            diplômes.</p>
                     </a>
                 </div>
 
@@ -197,114 +255,19 @@ include("connection.php");
                 <div class="service">
                     <a href="debouche.html">
                         <div class="icon-holder-esport">
-                            <img src="img/icons/weight-blue.png" alt="" class="icon">
+                            <img src="img/icons/spherier.png" alt="" class="icon">
                         </div>
-                        <h4 class="heading">Les Débouchés</h4>
-                        <p class="description">Compléter votre diplômes et démarrer avec toutes les compétences
-                            rechercher par les entreprises.</p>
+                        <h4 class="heading">Les Projets</h4>
+                        <p class="description">Description d'un projet type et planning des projets sur une année</p>
                     </a>
                 </div>
 
             </div>
         </div>
     </div>
-    <div class="cut cut-bottom"></div>
+
 </section>
-<section id="esport" class="section section-padded">
-    <div class="container">
-        <div class="row text-center title">
-            <h2>Devenir un Gamer IT-LeS</h2>
-            <h4 class="light muted">Rejoignez notre structure pour jouer, entreprendre, se former et surtout pour tenter
-                de briller sur la scène esport actuel.</BR></BR>
-                Véritable image de marque de notre structure, les Gamers auront la mission de représenter notre
-                savoir-faire en matière de création de jeu vidéo à travers les plateformes de streaming et les
-                différents événements esport.
-            </h4>
-        </div>
-        <div class="row services">
-            <div class="col-xs-12 col-md-4">
-                <a href="training.html">
-                    <div class="service">
-                        <div class="icon-holder-esport">
-                            <img src="img/icons/gamepad.png" alt="" class="icon">
-                        </div>
-                        <h4 class="heading">Training Session</h4>
-                        <p class="description">Découvrez un nouveau progamme pédagogique complétement repensé basé sur
-                            la passion du jeu</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <div class="service">
-                    <div class="icon-holder-esport">
-                        <img src="img/icons/cup.png" alt="" class="icon">
-                    </div>
-                    <h4 class="heading">Séléctions</h4>
-                    <p class="description">Les Gamers devront passer l'épreuve des séléctions pour rejoindre IT-LeS.</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <a href="cursus.html">
-                    <div class="service">
-                        <div class="icon-holder-esport">
-                            <img src="img/icons/star.png" alt="" class="icon">
-                        </div>
-                        <h4 class="heading">Cursus & Admission</h4>
-                        <p class="description">Retrouver les Cursus en informatique proposés et un processus d'Admission
-                            sur mesure.</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="pricing" class="section">
-    <div class="container">
-        <div class="row title text-center">
-            <h2 class="margin-top white">Vivre le rêve à tout Prix</h2>
-            <h4 class="light white">Le tarifs pour intégrer l'école et les différentes offres</h4>
-        </div>
-        <div class="row no-margin">
-            <div class="col-xs-12 col-md-7 no-padding col-md-offset-3 pricings text-center">
-                <div class="pricing">
-                    <div class="box-main active" data-img="img/pricing1.png">
-                        <h4 class="white">Entrée des Créateurs</h4>
-                        <h4 class="white regular light">6000€ <span class="small-font">/ an</span></h4>
-                        <a data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Je postule</a>
-                        <i class="info-icon icon_question"></i>
-                    </div>
-                    <div class="box-second active">
-                        <ul class="white-list text-left">
-                            <li>3000€ à l'entrée</li>
-                            <li>Entrez au Initial IT. Studio</li>
-                            <li>40h project/week</li>
-                            <li>Choix libre du diplôme</li>
-                            <li>Accès illimité au locaux</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="pricing">
-                    <div class="box-main" data-img="img/pricing2.jpg">
-                        <h4 class="white">Entrée des Gamers</h4>
-                        <h4 class="white regular light">4000€ <span class="small-font">/ an</span></h4>
-                        <a data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Je postule</a>
-                        <i class="info-icon icon_question"></i>
-                    </div>
-                    <div class="box-second">
-                        <ul class="white-list text-left">
-                            <li>1000€ à l'entrée</li>
-                            <li>Integrer team eSport</li>
-                            <li>32h training/week</li>
-                            <li>Entrez au Initial IT. Studio</li>
-                            <li>Choix libre d'un diplôme</li>
-                            <li>8h project/week</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -313,11 +276,12 @@ include("connection.php");
             <h3 class="white">Inscription</h3>
             <form class="form-horizontal popup-form" method="POST" action="actionv2.php" name="InsCreateurForm"
                   id="InsCreateurForm">
-                    <select name="typeCandidat" class="form-control form-white dropdown animated fadeIn" role="menu" aria-labelledby="dLabel">
-                        <option class="orange" disabled selected><a href="#">Choisir son camp..</a></option>
-                        <option class="orange" value="creator"><a href="#">Créateur</a></option>
-                        <option class="orange" value="gamer"><a href="#">Gamer</a></option>
-                    </select>
+                <select name="typeCandidat" class="form-control form-white dropdown animated fadeIn" role="menu"
+                        aria-labelledby="dLabel">
+                    <option class="orange" disabled selected><a href="#">Choisir son équipe..</a></option>
+                    <option class="orange" value="creator"><a href="#">Full time</a></option>
+                    <option class="orange" value="gamer"><a href="#">eSport</a></option>
+                </select>
                 <input type="email" class="form-control form-white" placeholder="Email Address" name="mail" required>
                 <input type="tel" class="form-control form-white" placeholder="Numéro" name="phone" required>
 
@@ -334,12 +298,13 @@ include("connection.php");
 </div>
 
 
+
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-6 text-center-mobile">
-                <h3 class="white">Mon dossier</h3>
-                <h5 class="light regular light-white">Remplir votre dossier d'admission !</h5>
+                <h3 class="white">Pré inscription</h3>
+                <h5 class="light regular light-white">Remplir le formulaire en 10 secondes !</h5>
                 <a data-toggle="modal" data-target="#modal1" class="btn btn-blue ripple trial-button">Inscription en
                     ligne</a>
             </div>
