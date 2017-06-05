@@ -1012,7 +1012,7 @@ footer .social-footer li:hover a {
 }
 
 .gray-bg {
-    background: #f7f7f7;
+    background: #f7f7f7 !important;
 }
 
 .blue {
