@@ -68,7 +68,7 @@ include("connection.php");
                         Plan pédagogique<span class="caret"></span> </a>
                     <ul class="dropdown-menu" aria-labelledby="drop1">
                         <li><a href="compo.html">Composition équipe projet</a></li>
-                        <li><a href="../IT-LES%20%20%201/cursus.html">Diplômes</a></li>
+                        <li><a href="cursus.html">Diplômes</a></li>
                         <li><a href="projet.html">Projets</a></li>
                     </ul>
                 </li>
@@ -240,7 +240,7 @@ include("connection.php");
             <div class="col-xs-12 col-md-4">
 
                 <div class="service">
-                    <a href="../IT-LES%20%20%201/cursus.html">
+                    <a href="cursus.html">
                         <div class="icon-holder-esport">
                             <img src="img/icons/cup.png" alt="" class="icon">
                         </div>

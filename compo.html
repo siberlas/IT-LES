@@ -287,6 +287,34 @@
     </div>
 </section>
 
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content modal-popup">
+            <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+            <h3 class="white">Inscription</h3>
+            <form class="form-horizontal popup-form" method="POST" action="actionv2.php" name="InsCreateurForm"
+                  id="InsCreateurForm">
+                <select name="typeCandidat" class="form-control form-white dropdown animated fadeIn" role="menu"
+                        aria-labelledby="dLabel">
+                    <option class="orange" disabled selected><a href="#">Choisir son équipe..</a></option>
+                    <option class="orange" value="creator"><a href="#">Full time</a></option>
+                    <option class="orange" value="gamer"><a href="#">eSport</a></option>
+                </select>
+                <input type="email" class="form-control form-white" placeholder="Email Address" name="mail" required>
+                <input type="tel" class="form-control form-white" placeholder="Numéro" name="phone" required>
+
+                <div class="checkbox-holder text-left">
+                    <div class="checkbox">
+                        <input type="checkbox" value="None" id="squaredOne" name="check" required/>
+                        <label for="squaredOne"><span>J'accepte <strong>de recevoir un email de confirmation</strong></span></label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 <footer>
     <div class="container">
         <div class="row">

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e191c0ce-42cc-487e-93fc-733ab42d26f6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cursus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/debouche.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compo.html" afterPath="$PROJECT_DIR$/compo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/school.css" afterPath="$PROJECT_DIR$/css/school.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cursus.html" afterPath="$PROJECT_DIR$/cursus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initialITStudio.html" afterPath="$PROJECT_DIR$/initialITStudio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spherier.html" afterPath="$PROJECT_DIR$/spherier.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training.html" afterPath="$PROJECT_DIR$/training.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet.html" afterPath="$PROJECT_DIR$/projet.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,14 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+            <state relative-caret-position="340">
+              <caret line="245" column="30" lean-forward="true" selection-start-line="245" selection-start-column="30" selection-end-line="245" selection-end-column="30" />
               <folding>
-                <marker date="1498865665773" expanded="true" signature="7671:7742" ph="select COUNT... candidat" />
-                <marker date="1498865665773" expanded="true" signature="8167:8234" ph="select COUNT... candidat" />
+                <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
+                <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
               </folding>
             </state>
           </provider>
@@ -60,8 +55,8 @@
       <file leaf-file-name="compo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="75" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
+            <state relative-caret-position="799">
+              <caret line="316" column="0" lean-forward="true" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,18 +65,20 @@
       <file leaf-file-name="projet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1230">
+              <caret line="74" column="64" lean-forward="true" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cursus.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cursus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cursus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="47" />
+            <state relative-caret-position="103">
+              <caret line="1008" column="39" lean-forward="true" selection-start-line="1008" selection-start-column="39" selection-end-line="1008" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -162,6 +159,8 @@
       <find>infra</find>
       <find>debouche</find>
       <find>debou</find>
+      <find>../IT-LES%20%20%20</find>
+      <find>../IT-LES%20%20%201/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,10 +183,10 @@
         <option value="$PROJECT_DIR$/js/jquery.tipsy.js" />
         <option value="$PROJECT_DIR$/css/school.css" />
         <option value="$PROJECT_DIR$/js/tooltip.js" />
+        <option value="$PROJECT_DIR$/cursus.html" />
         <option value="$PROJECT_DIR$/compo.html" />
         <option value="$PROJECT_DIR$/projet.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/cursus.html" />
       </list>
     </option>
   </component>
@@ -349,12 +348,12 @@
       <workItem from="1497097827361" duration="1202000" />
       <workItem from="1497774541922" duration="599000" />
       <workItem from="1498163793783" duration="599000" />
-      <workItem from="1498855360713" duration="6464000" />
+      <workItem from="1498855360713" duration="7701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80267000" />
+    <option name="totallyTimeSpent" value="81504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,8 +438,8 @@
         <state relative-caret-position="2584">
           <caret line="152" column="41" lean-forward="false" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
           <folding>
-            <marker date="1498865665773" expanded="true" signature="7671:7742" ph="select COUNT... candidat" />
-            <marker date="1498865665773" expanded="true" signature="8167:8234" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
@@ -515,8 +514,8 @@
         <state relative-caret-position="4233">
           <caret line="249" column="14" lean-forward="false" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
           <folding>
-            <marker date="1498865665773" expanded="true" signature="7671:7742" ph="select COUNT... candidat" />
-            <marker date="1498865665773" expanded="true" signature="8167:8234" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
@@ -581,8 +580,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498865665773" expanded="true" signature="7671:7742" ph="select COUNT... candidat" />
-            <marker date="1498865665773" expanded="true" signature="8167:8234" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
@@ -708,36 +707,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="75" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
+        <state relative-caret-position="799">
+          <caret line="316" column="0" lean-forward="true" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        <state relative-caret-position="1230">
+          <caret line="74" column="64" lean-forward="true" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
           <folding>
-            <marker date="1498865665773" expanded="true" signature="7671:7742" ph="select COUNT... candidat" />
-            <marker date="1498865665773" expanded="true" signature="8167:8234" ph="select COUNT... candidat" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cursus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="47" />
+        <state relative-caret-position="103">
+          <caret line="1008" column="39" lean-forward="true" selection-start-line="1008" selection-start-column="39" selection-end-line="1008" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="245" column="30" lean-forward="true" selection-start-line="245" selection-start-column="30" selection-end-line="245" selection-end-column="30" />
+          <folding>
+            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
+            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
+          </folding>
         </state>
       </provider>
     </entry>
