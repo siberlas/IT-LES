@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e191c0ce-42cc-487e-93fc-733ab42d26f6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionv2.php" afterPath="$PROJECT_DIR$/actionv2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compo.html" afterPath="$PROJECT_DIR$/compo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connection.php" afterPath="$PROJECT_DIR$/connection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cursus.html" afterPath="$PROJECT_DIR$/cursus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet.html" afterPath="$PROJECT_DIR$/projet.html" />
@@ -29,15 +32,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="245" column="30" lean-forward="true" selection-start-line="245" selection-start-column="30" selection-end-line="245" selection-end-column="30" />
+            <state relative-caret-position="459">
+              <caret line="243" column="30" lean-forward="true" selection-start-line="243" selection-start-column="30" selection-end-line="243" selection-end-column="30" />
               <folding>
-                <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
-                <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
+                <marker date="1499017065821" expanded="true" signature="7697:7768" ph="select COUNT... candidat" />
+                <marker date="1499017065821" expanded="true" signature="8193:8260" ph="select COUNT... candidat" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PAPLearning.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PAPLearning.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,8 +58,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="429">
+              <caret line="81" column="40" lean-forward="false" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -55,8 +68,8 @@
       <file leaf-file-name="compo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="316" column="0" lean-forward="true" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -65,8 +78,8 @@
       <file leaf-file-name="projet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="74" column="64" lean-forward="true" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+            <state relative-caret-position="476">
+              <caret line="89" column="79" lean-forward="false" selection-start-line="89" selection-start-column="79" selection-end-line="89" selection-end-column="79" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -77,8 +90,8 @@
       <file leaf-file-name="cursus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cursus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="1008" column="39" lean-forward="true" selection-start-line="1008" selection-start-column="39" selection-end-line="1008" selection-end-column="39" />
+            <state relative-caret-position="-190">
+              <caret line="816" column="40" lean-forward="true" selection-start-line="816" selection-start-column="40" selection-end-line="816" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -87,18 +100,8 @@
       <file leaf-file-name="tooltip.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tooltip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
+            <state relative-caret-position="5151">
               <caret line="303" column="20" lean-forward="false" selection-start-line="303" selection-start-column="11" selection-end-line="303" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialITStudio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initialITStudio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="862">
-              <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -107,10 +110,10 @@
       <file leaf-file-name="actionv2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actionv2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="51">
+              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding>
-                <marker date="1495889997532" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
+                <marker date="1498909164817" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
               </folding>
             </state>
           </provider>
@@ -119,7 +122,7 @@
       <file leaf-file-name="school.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/school.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="18700">
               <caret line="1100" column="0" lean-forward="true" selection-start-line="1100" selection-start-column="0" selection-end-line="1100" selection-end-column="0" />
               <folding />
             </state>
@@ -130,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/connection.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -161,6 +164,13 @@
       <find>debou</find>
       <find>../IT-LES%20%20%20</find>
       <find>../IT-LES%20%20%201/</find>
+      <find>IT-LES/</find>
+      <find>../IT-L</find>
+      <find>IT-LES</find>
+      <find>../IT-LES/</find>
+      <find>nom</find>
+      <find>composé</find>
+      <find>retrouvez</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,11 +181,9 @@
       <list>
         <option value="$PROJECT_DIR$/initialITStudio.php.html" />
         <option value="$PROJECT_DIR$/spherier.php.html" />
-        <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/initialITStudio.html" />
         <option value="$PROJECT_DIR$/spherier.html" />
         <option value="$PROJECT_DIR$/training.html" />
-        <option value="$PROJECT_DIR$/actionv2.php" />
         <option value="$PROJECT_DIR$/debouche.html" />
         <option value="$PROJECT_DIR$/projetPedagogique.html" />
         <option value="$PROJECT_DIR$/../IT-LES   1/cursus.html" />
@@ -183,10 +191,13 @@
         <option value="$PROJECT_DIR$/js/jquery.tipsy.js" />
         <option value="$PROJECT_DIR$/css/school.css" />
         <option value="$PROJECT_DIR$/js/tooltip.js" />
-        <option value="$PROJECT_DIR$/cursus.html" />
-        <option value="$PROJECT_DIR$/compo.html" />
+        <option value="$PROJECT_DIR$/actionv2.php" />
+        <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/projet.html" />
+        <option value="$PROJECT_DIR$/compo.html" />
+        <option value="$PROJECT_DIR$/cursus.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/PAPLearning.html" />
       </list>
     </option>
   </component>
@@ -219,6 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,8 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,12 +359,13 @@
       <workItem from="1497097827361" duration="1202000" />
       <workItem from="1497774541922" duration="599000" />
       <workItem from="1498163793783" duration="599000" />
-      <workItem from="1498855360713" duration="7701000" />
+      <workItem from="1498855360713" duration="7896000" />
+      <workItem from="1498909150074" duration="4324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81504000" />
+    <option name="totallyTimeSpent" value="86023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,6 +384,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3315734" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -383,7 +396,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3315734" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -398,20 +410,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actionv2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
-            <marker date="1495889997532" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
+            <marker date="1498909164817" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
           </folding>
         </state>
       </provider>
@@ -438,19 +442,13 @@
         <state relative-caret-position="2584">
           <caret line="152" column="41" lean-forward="false" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
           <folding>
-            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
-            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="7697:7768" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="8193:8260" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debouche.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="6" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/debouche.html" />
     <entry file="file://$PROJECT_DIR$/initialITStudio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
@@ -470,24 +468,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="6" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="6" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html" />
     <entry file="file://$PROJECT_DIR$/actionv2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
-            <marker date="1495889997532" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
+            <marker date="1498909164817" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
           </folding>
         </state>
       </provider>
@@ -514,19 +504,13 @@
         <state relative-caret-position="4233">
           <caret line="249" column="14" lean-forward="false" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
           <folding>
-            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
-            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="7697:7768" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="8193:8260" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debouche.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/debouche.html" />
     <entry file="file://$PROJECT_DIR$/projetPedagogique.html" />
     <entry file="file://$PROJECT_DIR$/initialITStudio.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,18 +531,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html" />
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -580,8 +556,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
-            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="7697:7768" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="8193:8260" ph="select COUNT... candidat" />
           </folding>
         </state>
       </provider>
@@ -617,31 +593,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debouche.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="170" column="34" lean-forward="true" selection-start-line="170" selection-start-column="34" selection-end-line="170" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/debouche.html" />
     <entry file="file://$PROJECT_DIR$/projetPedagogique.html" />
-    <entry file="file://$PROJECT_DIR$/actionv2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <marker date="1495889997532" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/initialITStudio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
+        <state relative-caret-position="1513">
           <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
           <folding />
         </state>
@@ -657,17 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.tipsy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="225" column="0" lean-forward="true" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.tipsy.js" />
     <entry file="file://$PROJECT_DIR$/css/school.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="18700">
           <caret line="1100" column="0" lean-forward="true" selection-start-line="1100" selection-start-column="0" selection-end-line="1100" selection-end-column="0" />
           <folding />
         </state>
@@ -675,48 +627,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tooltip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
+        <state relative-caret-position="5151">
           <caret line="303" column="20" lean-forward="false" selection-start-line="303" selection-start-column="11" selection-end-line="303" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html">
+    <entry file="file://$PROJECT_DIR$/../IT-LES   1/cursus.html" />
+    <entry file="file://$PROJECT_DIR$/actionv2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="143" column="54" lean-forward="true" selection-start-line="143" selection-start-column="54" selection-end-line="143" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1498909164817" expanded="true" signature="279:380" ph="INSERT INTO candidat... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="316" column="0" lean-forward="true" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+        <state relative-caret-position="429">
+          <caret line="81" column="40" lean-forward="false" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="74" column="64" lean-forward="true" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+        <state relative-caret-position="476">
+          <caret line="89" column="79" lean-forward="false" selection-start-line="89" selection-start-column="79" selection-end-line="89" selection-end-column="79" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -725,20 +672,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cursus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="1008" column="39" lean-forward="true" selection-start-line="1008" selection-start-column="39" selection-end-line="1008" selection-end-column="39" />
+        <state relative-caret-position="-190">
+          <caret line="816" column="40" lean-forward="true" selection-start-line="816" selection-start-column="40" selection-end-line="816" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="245" column="30" lean-forward="true" selection-start-line="245" selection-start-column="30" selection-end-line="245" selection-end-column="30" />
+        <state relative-caret-position="459">
+          <caret line="243" column="30" lean-forward="true" selection-start-line="243" selection-start-column="30" selection-end-line="243" selection-end-column="30" />
           <folding>
-            <marker date="1498870045217" expanded="true" signature="7651:7722" ph="select COUNT... candidat" />
-            <marker date="1498870045217" expanded="true" signature="8147:8214" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="7697:7768" ph="select COUNT... candidat" />
+            <marker date="1499017065821" expanded="true" signature="8193:8260" ph="select COUNT... candidat" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PAPLearning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

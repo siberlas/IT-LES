@@ -118,16 +118,16 @@ include("connection.php");
                 <h4>
                     <strong>ITLES</strong> vous garantit un environnement de travail qui reproduit celui présent dans
                     <strong>les plus grandes entreprises.</strong><br><br>
-                    Nous mettons en place une équipe qui évolue dans un but commun : <strong>le developpement des
+                    Nous mettons en place une équipe qui évolue dans un but commun : <strong>le développement des
                         compétences
-                        personnels.</strong><br>
-                    Tout simplement nous utilisons <strong>les forces des uns pour palier aux faiblesses des
+                        personnelles pour l'obtention d'un diplôme certifié.</strong><br><br>
+                     Nous utilisons tout simplement <strong>les forces des uns pour palier aux faiblesses des
                         autres.</strong><br><br>
                 </h4>
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 text-center accroche2">
                 <h4>
-                    Ensemble, nous participons aux developpements de <strong>projets réels</strong> permettant
+                    Ensemble, nous participons aux développements de <strong>projets réels</strong> permettant
                     d'enrichir
                     vos
                     connaissances théoriques et votre expérience professionel.<br><br>
@@ -183,9 +183,9 @@ include("connection.php");
                 <h3 class="white">Equipe Full Time</h3>
                 <li class="list-group-item">20 personnes</li>
                 <li class="list-group-item">100% projet</li>
-                <li class="list-group-item">Cours individuel</li>
-                <li class="list-group-item">Partage de connaissance</li>
-                <li class="list-group-item">Profits identique sur projet</li>
+                <li class="list-group-item">Cours individuels</li>
+                <li class="list-group-item">Partage de connaissances</li>
+                <li class="list-group-item">Profits identiques sur projet</li>
             </ul>
         </div>
         <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-2 text-center">
@@ -207,11 +207,11 @@ include("connection.php");
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4 text-center">
             <ul class="list-group">
-                <li class="list-group-item">Même projets</li>
-                <li class="list-group-item">Même diplômes</li>
+                <li class="list-group-item">Mêmes projets</li>
+                <li class="list-group-item">Mêmes diplômes</li>
                 <li class="list-group-item">Cohésion d'équipe forte</li>
-                <li class="list-group-item">Accès locaux 24/24, 7/7</li>
-                <li class="list-group-item">Même objectifs</li>
+                <li class="list-group-item">Accès aux locaux 24/24, 7/7</li>
+                <li class="list-group-item">Mêmes objectifs</li>
             </ul>
         </div>
     </div>
@@ -225,43 +225,51 @@ include("connection.php");
                 pédagogique.</h4>
         </div>
         <div class="row services">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-md-4  col-md-offset-1 col-xs-12">
                     <div class="service">
-                        <a href="compo.html">
+                        <a href="PAPLearning.html">
                             <div class="icon-holder-esport">
-                                <img src="img/icons/icon-team.png" alt="" class="icon">
+                                <img src="img/icons/pap.png" alt="" class="icon">
                             </div>
-                            <h4 class="heading">Composition équipe projet</h4>
-                            <p class="description">Découvrez l'organisation de l'équipe projet avec le détail des
-                                différents postes et leurs diplômes correspondant</p>
+                            <h4 class="heading">PAP Learning</h4>
+                            <p class="description">Explorez la nouvelle pédagogie qui fait l'identité de IT-LeS</p>
                         </a>
                     </div>
             </div>
-            <div class="col-xs-12 col-md-4">
-
+            <div class="col-md-4 col-md-offset-2 col-xs-12">
                 <div class="service">
                     <a href="cursus.html">
                         <div class="icon-holder-esport">
                             <img src="img/icons/cup.png" alt="" class="icon">
                         </div>
                         <h4 class="heading">Les Diplômes</h4>
-                        <p class="description">Retrouver le détail, les débouchés et les pré-requis de tous nos
+                        <p class="description">Retrouvez le détail, les débouchés et les pré-requis de tous nos
                             diplômes.</p>
                     </a>
                 </div>
-
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-md-4  col-md-offset-1 col-xs-12">
+                <div class="service">
+                    <a href="compo.html">
+                        <div class="icon-holder-esport">
+                            <img src="img/icons/icon-team.png" alt="" class="icon">
+                        </div>
+                        <h4 class="heading">Composition équipe projet</h4>
+                        <p class="description">Découvrez l'organisation de l'équipe projet avec le détail des
+                            différents postes et leurs diplômes correspondants</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-2 col-xs-12">
                 <div class="service">
                     <a href="projet.html">
                         <div class="icon-holder-esport">
                             <img src="img/icons/spherier.png" alt="" class="icon">
                         </div>
                         <h4 class="heading">Les Projets</h4>
-                        <p class="description">Description d'un projet type et planning des projets sur une année</p>
+                        <p class="description">Examinez un projet type et le planning des projets sur une année</p>
                     </a>
                 </div>
-
             </div>
         </div>
     </div>
