@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IT-LeS</title>
+    <title>IT-LES</title>
     <meta name="description" content="IT-LES"/>
     <meta name="keywords" content="esport, e-sport, école, informatique, supérieur, IT-LES, université"/>
     <meta name="author" content="Pshiit"/>
@@ -36,6 +36,10 @@
 </head>
 
 <body>
+<?php
+include("connection.php");
+?>
+<!--- partie a deplacer---->
 <div class="preloader">
     <img src="img/loader.gif" alt="Preloader image">
 </div>
@@ -63,6 +67,7 @@
                                                     aria-expanded="true">
                     Plan pédagogique<span class="caret"></span> </a>
                     <ul class="dropdown-menu" aria-labelledby="drop1">
+                        <li><a href="PAPLearning.html">PAP Learning</a></li>
                         <li><a href="compo.html">Composition équipe projet</a></li>
                         <li><a href="cursus.html">Diplômes</a></li>
                         <li><a href="projet.html">Projets</a></li>

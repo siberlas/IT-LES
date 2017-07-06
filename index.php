@@ -67,6 +67,7 @@ include("connection.php");
                                                     aria-expanded="true">
                         Plan pédagogique<span class="caret"></span> </a>
                     <ul class="dropdown-menu" aria-labelledby="drop1">
+                        <li><a href="PAPLearning.html">PAP Learning</a></li>
                         <li><a href="compo.html">Composition équipe projet</a></li>
                         <li><a href="cursus.html">Diplômes</a></li>
                         <li><a href="projet.html">Projets</a></li>
@@ -99,7 +100,7 @@ include("connection.php");
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-md-offset-3 col-md-6 text-center">
                         <?php
-                        if (isset($_GET['validate'])) echo('<div class="alert alert-warning alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times</span></button><strong>Well done!</strong> </br></br> Vous etes maintenant pré-inscrit. Nous reviendrons vers vous après études des informations transmises. A bientot !</div>');
+                        if (isset($_GET['validate'])) echo('<div class="alert alert-warning alert-dismissible" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times</span></button><strong>Well done!</strong> </br></br> Vous etes maintenant candidat à IT-LeS. Vous allez recevoir un email pour préparer la suite du recrutement.<br> A bientot !<br>La Team IT-LeS.</div>');
                         ?>
                     </div>
                 </div>

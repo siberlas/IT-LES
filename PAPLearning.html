@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IT-LeS</title>
+    <title>IT-LES</title>
     <meta name="description" content="IT-LES"/>
     <meta name="keywords" content="esport, e-sport, école, informatique, supérieur, IT-LES, université"/>
     <meta name="author" content="Pshiit"/>
@@ -36,6 +36,10 @@
 </head>
 
 <body>
+<?php
+include("connection.php");
+?>
+<!--- partie a deplacer---->
 <div class="preloader">
     <img src="img/loader.gif" alt="Preloader image">
 </div>
@@ -63,6 +67,7 @@
                                                     aria-expanded="true">
                     Plan pédagogique<span class="caret"></span> </a>
                     <ul class="dropdown-menu" aria-labelledby="drop1">
+                        <li><a href="PAPLearning.html">PAP Learning</a></li>
                         <li><a href="compo.html">Composition équipe projet</a></li>
                         <li><a href="cursus.html">Diplômes</a></li>
                         <li><a href="projet.html">Projets</a></li>
@@ -97,14 +102,72 @@
 </header>
 <section>
 </section>
-<section id="etudes" class="section section-padded gray-bg">
+<section id="accroche" class="section section-padded gray-bg">
     <div class="container">
-        <div class="row text-center title">
-            <h1>EN COURS DE CONSTRUCTION</h1>
+        <div class="row text-center title ">
+            <div class="col-xs-12 col-md-offset-3 col-md-6">
+                <h2 class="blue"><strong>P</strong>eer <strong>A</strong>ct & get <strong>P</strong>ay</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-center accroche">
+                <h4>L'approche pédagogique qui met fin aux cours magistraux, aux examens stressant et aux mémoires de fin d'année.</h4><br>
+                <h4>Notre fonctionnement participatif permet de libérer toute sa créativité́ grâce à l’apprentissage sur des projets réels.</h4><br>
+                <h4>Partager, appliquer et récupérer les récompenses qui vous sont dues.</h4><br>
+                <h4>IT-LeS c'est notre réponse à ce que devrait être la formation de demain !</h4>
+            </div>
         </div>
     </div>
 </section>
-
+<section id="peer" class="section section-padded">
+    <div class="container">
+        <div class="row text-center title ">
+            <div class="col-xs-12 col-md-offset-3 col-md-6">
+                <h2>Peer</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-center accroche">
+                <h4>L'apprentissage se fait au travers de la mise en pratique, de l'échange et de l'auto formation.</h4><br>
+                <h4>A l'inverse des formations classiques, nous valorisons l'expérience réelle pour valider les compétences de nos élèves.</h4><br>
+                <h4>Les cours sont données à titre individuel et sont personnalisés afin d'aller à votre vitesse et ciblé les compétences qui vous font défaut !</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="act" class="section section-padded gray-bg">
+    <div class="container">
+        <div class="row text-center title ">
+            <div class="col-xs-12 col-md-offset-3 col-md-6">
+                <h2>Act</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-center accroche">
+                <h4>Une mise en pratique sera possible grâce au partage des connaissances, aux cours individuel et à l'auto formation.</h4><br>
+                <h4>Les élèves réaliseront des applications et des jeux "mobile" de bout en bout.</h4><br>
+                <h4>Chaque personne sera un acteur clé de la conception jusqu'à la vente des applications !</h4><br>
+                <h4>Les projets sont mis en valeur sur le marché du grand public et génèrent des profits.</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="pay" class="section section-padded">
+    <div class="container">
+        <div class="row text-center title ">
+            <div class="col-xs-12 col-md-offset-3 col-md-6">
+                <h2><strong>get Pay</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-center accroche">
+                <h4>Les compétences acquises et mise en valeur par les projets permettent d'obtenir des diplômes certifiés par l'état.</h4><br>
+                <h4>Les profits dégagés par les projets permettront de rembourser le coût de la formation et de participer à divers événements.</h4><br>
+                <h4>Les CV des étudiants seront enrichis d'expériences professionnelles assurant l'insertion dans les plus grandes entreprises à la recherche de profil junior avec une première expérience significative.</h4>
+            </div>
+        </div>
+    </div>
+</section>
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content modal-popup">
